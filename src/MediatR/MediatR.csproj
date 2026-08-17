@@ -14,7 +14,6 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageIcon>gradient_128x128.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <MinVerTagPrefix>v</MinVerTagPrefix>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <IncludeSymbols>true</IncludeSymbols>
@@ -43,7 +42,6 @@
     <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="8.0.0" Condition="'$(TargetFramework)' == 'netstandard2.0'" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
-    <PackageReference Include="MinVer" Version="6.0.0" PrivateAssets="All" />
   </ItemGroup>
 
   <ItemGroup>
