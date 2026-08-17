@@ -22,6 +22,9 @@
     <Deterministic>true</Deterministic>
     <ContinuousIntegrationBuild Condition="'$(GITHUB_ACTIONS)' == 'true'">true</ContinuousIntegrationBuild>
 
+    <RootNamespace>IATec.Shared.Net.MediatR</RootNamespace>
+    <Nullable>enable</Nullable>
+
     <PackageIconUrl>https://assets-services-dev.sdasystems.org/images/icons/standard.library.icon.png</PackageIconUrl>
     <PackageProjectUrl>https://github.com/iatecbr/IATec.Shared.Net.MediatR</PackageProjectUrl>
     <RepositoryUrl>https://github.com/iatecbr/IATec.Shared.Net.MediatR</RepositoryUrl>
